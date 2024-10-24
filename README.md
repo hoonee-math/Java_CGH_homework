@@ -99,6 +99,16 @@
     </ul>
     </details>
   </li>
+  
+  <li>
+    <details>
+    <summary>📁 <a href="CGH_HomeWork/16_컬렉션">컬렉션</a></summary>
+    <ul>
+      <li>📕 <a href="CGH_HomeWork/16_컬렉션/AnimalListController(수업실습).java">컬렉션 실습 람다, forEach 버전</a></li>
+    </ul>
+    </details>
+  </li>
+  
 </ul>
 <ul>
     <li>📕 <a href= "CGH_HomeWork/01_변수_실습문제/com/bs/practice1/func">1_변수_실습문제.pdf</a></li>
