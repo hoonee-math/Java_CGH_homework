@@ -6,7 +6,7 @@
 <ul>
   <li>
     <details>
-    <summary>📁 api</summary>
+    <summary>📁 <a href="13_API_실습문제/com/bs/practice/token">api</a></summary>
     <ul>
       <li>📕 <a href="">1_API실습문제.pdf</a></li>
       <li>📕 <a href="">2_API실습문제.pdf</a></li>
@@ -64,7 +64,7 @@
 
   <li>
     <details>
-    <summary>📁 상속</summary>
+    <summary>📁 <a href="12_상속,다형성,인터페이스_실습문제/com/bs/practice/inherit">상속</a></summary>
     <ul>
       <li>📄 <a href="">06_상속실습.txt</a></li>
       <li>📕 <a href="">1_상속과제.pdf</a></li>
@@ -76,7 +76,7 @@
 
   <li>
     <details>
-    <summary>📁 예외처리</summary>
+    <summary>📁 <a href="14_예외처리/com/bs/practice">예외처리</a></summary>
     <ul>
       <li>📕 <a href="">1_예외실습문제.pdf</a></li>
       <li>📕 <a href="">2_예외실습문제.pdf</a></li>
@@ -87,7 +87,7 @@
 
   <li>
     <details>
-    <summary>📁 입출력</summary>
+    <summary>📁 <a href="CGH_HomeWork/15_IO입출력/com/bs/practice">입출력</a></summary>
     <ul>
       <li>📕 <a href="">1_입출력실습문제.pdf</a></li>
       <li>📕 <a href="">2_입출력실습문제.pdf</a></li>
