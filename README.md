@@ -102,7 +102,7 @@
   
   <li>
     <details>
-    <summary>📁 <a href="CGH_HomeWork/16_컬렉션">컬렉션</a></summary>
+    <summary>📁 컬렉션</summary>
     <ul>
       <li>📕 <a href="CGH_HomeWork/16_컬렉션/AnimalListController(수업실습).java">컬렉션 실습 람다, forEach 버전</a></li>
     </ul>
