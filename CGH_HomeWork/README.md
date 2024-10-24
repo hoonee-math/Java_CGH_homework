@@ -1,4 +1,4 @@
-<details>
+<details open>
 <summary><h1>📌 과제 폴더 구조로 살펴보기</h1></summary>
 
 
