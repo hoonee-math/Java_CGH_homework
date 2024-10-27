@@ -2,8 +2,8 @@
 아래 트리 구조에서 파일명을 선택하면 과제 코드로 바로 이동합니다.
 아직작성하지 않은 
 
-<details open>
-<summary><h2>📌 JAVA 과제 폴더 구조로 살펴보기</h2></summary>
+<details>
+<summary><h2>📌 <a href="CGH_HomeWork/README.md">JAVA 과제 폴더 구조로 살펴보기</a></h2></summary>
 
 
 
