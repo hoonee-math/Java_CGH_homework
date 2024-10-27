@@ -64,10 +64,10 @@
 
   <li>
     <details>
-    <summary>📁 <a href="12_상속,다형성,인터페이스_실습문제/com/bs/practice/inherit">상속</a></summary>
+    <summary>📁 상속</summary>
     <ul>
-      <li>📄 <a href="">06_상속실습.txt</a></li>
-      <li>📕 <a href="">1_상속과제.pdf</a></li>
+      <li>📄 <a href="12_상속,다형성,인터페이스_실습문제/com/bs/practice/inherit">06_상속실습.txt</a></li>
+      <li>📕 <a href="12_상속,다형성,인터페이스_실습문제/com/bs/hw/person">1_상속과제.pdf</a></li>
       <li>📕 <a href="">1_상속실습문제.pdf</a></li>
     </ul>
     </details>
