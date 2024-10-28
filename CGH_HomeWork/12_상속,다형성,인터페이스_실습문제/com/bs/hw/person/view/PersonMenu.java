@@ -6,7 +6,6 @@ import java.util.Scanner;
 import com.bs.hw.person.controller.PersonController;
 
 public class PersonMenu {
-	Scanner sc=new Scanner(System.in);
 	PersonController pc = new PersonController();
 	
 	public void mainMenu() {
@@ -20,10 +19,10 @@ public class PersonMenu {
 				+ "2.사원 메뉴\n"
 				+ "9.끝내기"
 				+ "메뉴 번호 : ");
+		Scanner sc=new Scanner(System.in);
 		int selectMenu=0;
 		try {
 				selectMenu=sc.nextInt();	
-				sc.nextLine();
 		} catch(InputMismatchException e) {
 			System.out.println("잘못된 입력입니다.");
 			mainMenu();
