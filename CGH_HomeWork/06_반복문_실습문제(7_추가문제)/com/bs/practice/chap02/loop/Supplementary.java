@@ -143,7 +143,7 @@ public class Supplementary {
 //	출력 예)
 //	   문자열 입력 : application
 //		문자 입력 : p
-//		포함된 갯수 : 2 개
+//		포함된 개수 : 2 개
 //		====================
 //		문자열 입력 : apple_test123
 //		문자 입력 : p
@@ -167,7 +167,7 @@ public class Supplementary {
 		}
 		
 		if(countChar>0) {
-			System.out.print("\n포함된 갯수 : ");
+			System.out.print("\n포함된 개수 : ");
 			System.out.print(countChar);
 		}
 	}
