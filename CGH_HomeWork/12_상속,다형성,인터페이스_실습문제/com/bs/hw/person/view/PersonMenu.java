@@ -9,10 +9,10 @@ public class PersonMenu {
 	PersonController pc = new PersonController();
 	
 	public void mainMenu() {
-		System.out.printf("학생은 최대 %d명까지 저장할 수 있습니다.",0);
-		System.out.printf("현재 저장된 학생은 %d명 입니다.",0);
-		System.out.printf("사원은 최대 %d명까지 저장할 수 있습니다.",0);
-		System.out.printf("현재 저장된 사원은 %d명 입니다",0);
+		System.out.printf("학생은 최대 %d명까지 저장할 수 있습니다.\n",0);
+		System.out.printf("현재 저장된 학생은 %d명 입니다.\n",0);
+		System.out.printf("사원은 최대 %d명까지 저장할 수 있습니다.\n",0);
+		System.out.printf("현재 저장된 사원은 %d명 입니다\n",0);
 		System.out.println();
 		System.out.print(
 				"1. 학생 메뉴\n"
@@ -22,7 +22,7 @@ public class PersonMenu {
 		Scanner sc=new Scanner(System.in);
 		int selectMenu=0;
 		try {
-				selectMenu=sc.nextInt();	
+			selectMenu=sc.nextInt();	
 		} catch(InputMismatchException e) {
 			System.out.println("잘못된 입력입니다.");
 			mainMenu();
