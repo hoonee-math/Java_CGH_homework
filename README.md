@@ -1,5 +1,7 @@
 # Java_CGH_homework
-아래 트리 구조에서 파일명을 선택하면 과제 코드로 바로 이동합니다.
+아래 트리 구조에서 파일명을 선택하면 과제 코드(폴더)로 바로 이동합니다.
+과제가 끝난 폴더에는 체크 표시(✔️) 해두었습니다.
+
 <details open>
 <summary><h1>📌 과제 폴더 구조로 살펴보기</h1></summary>
 
@@ -19,7 +21,7 @@
 
   <li>
     <details>
-    <summary>📁 객체</summary>
+    <summary>📁 객체 ✔️</summary>
     <ul>
       <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/10_객체_실습/com/bs/example/practice1/model/vo/Member.java">01_클래스 실습예제.pdf</a></li>
       <li>📄 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/10_객체_실습/com/myobj/vo/Member.java">01_필드이용실습.txt</a></li>
@@ -41,7 +43,7 @@
 
   <li>
     <details>
-    <summary>📁 객체배열</summary>
+    <summary>📁 객체배열 ✔️</summary>
     <ul>
       <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/11_객체배열_실습/com/bs/hw/member/model/controller/MemberController.java">1_객체배열과제.pdf</a></li>
       <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/11_객체배열_실습/com/bs/practice/student/controller/StudentController.java">1_객체배열실습문제.pdf</a></li> 
@@ -52,7 +54,7 @@
 
   <li>
     <details>
-    <summary>📁 배열 반복문추가문제</summary>
+    <summary>📁 배열 반복문추가문제 ✔️</summary>
     <ul>
       <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/04_조건문_실습문제(5_추가문제)/com/bs/practice/chap01/ControlPractice.java#L351">5_조건문_실습문제_추가.pdf</a></li>
       <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/06_반복문_실습문제(7_추가문제)/com/bs/practice/chap02/loop/LoopPractice.java#L369">7_반복문_실습문제_추가.pdf</a></li>
@@ -66,11 +68,11 @@
 
   <li>
     <details>
-    <summary>📁 상속</summary>
+    <summary>📁 상속 ✔️</summary>
     <ul>
       <li>📄 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/12_상속,다형성,인터페이스_실습문제/com/bs/practice/inherit">06_상속실습.txt</a></li>
       <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/12_상속,다형성,인터페이스_실습문제/com/bs/hw/person">1_상속과제.pdf</a></li>
-      <li>📕 <a href="">1_상속실습문제.pdf</a></li>
+      <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/12_상속,다형성,인터페이스_실습문제/com/bs/practice/point">1_상속실습문제.pdf</a></li>
     </ul>
     </details>
   </li>
@@ -109,13 +111,13 @@
   </li>
 </ul>
 <ul>
-    <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/01_변수_실습문제/com/bs/practice1/func">1_변수_실습문제.pdf</a></li>
-    <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/02_형변환_실습문제/com/bs/practice2/func">2_형변환_실습문제.pdf</a></li>
-    <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/03_연산자_실습문제/com/bs/practice/func/OperatorPractice.java">3_연산자_실습문제.pdf</a></li>
-    <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/04_조건문_실습문제(5_추가문제)/com/bs/practice/chap01/ControlPractice.java#L11">4_조건문_실습문제.pdf</a></li>
-    <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/06_반복문_실습문제(7_추가문제)/com/bs/practice/chap02/loop/LoopPractice.java">6_반복문_실습문제.pdf</a></li>
-    <li>📄 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/06_반복문_실습문제(7_추가문제)/com/bs/practice/chap02/loop/Supplementary.java#L11">가위바위보게임.txt</a></li>
-    <li>📄 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/06_반복문_실습문제(7_추가문제)/com/bs/practice/chap02/loop/Supplementary.java#L63">반복문실습문제.txt</a></li>
+    <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/01_변수_실습문제/com/bs/practice1/func">1_변수_실습문제.pdf ✔️</a></li>
+    <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/02_형변환_실습문제/com/bs/practice2/func">2_형변환_실습문제.pdf ✔️</a></li>
+    <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/03_연산자_실습문제/com/bs/practice/func/OperatorPractice.java">3_연산자_실습문제.pdf ✔️</a></li>
+    <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/04_조건문_실습문제(5_추가문제)/com/bs/practice/chap01/ControlPractice.java#L11">4_조건문_실습문제.pdf ✔️</a></li>
+    <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/06_반복문_실습문제(7_추가문제)/com/bs/practice/chap02/loop/LoopPractice.java">6_반복문_실습문제.pdf ✔️</a></li>
+    <li>📄 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/06_반복문_실습문제(7_추가문제)/com/bs/practice/chap02/loop/Supplementary.java#L11">가위바위보게임.txt ✔️</a></li>
+    <li>📄 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/06_반복문_실습문제(7_추가문제)/com/bs/practice/chap02/loop/Supplementary.java#L63">반복문실습문제.txt ✔️</a></li>
     <li>📄 <a href="">버전업,pdf보는법,상속실습 과제.txt</a></li>
 </ul>
 
