@@ -55,7 +55,8 @@ public class TokenMenu {
 	public void inputMenu(){
 		
 		System.out.println("문자열을 입력하세요 : ");
-		String input = sc.next();
+		sc.nextLine();
+		String input = sc.nextLine();
 		System.out.print("첫 글자 대문자 : ");
 		// Question 필드 위에 tc를 한번 선언했는데 여기서 다른걸로 다시 선언해서사용함?
 		String tcS = tc.firstCap(input);
