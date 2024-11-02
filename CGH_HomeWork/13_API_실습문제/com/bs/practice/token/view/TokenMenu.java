@@ -1,5 +1,6 @@
 package com.bs.practice.token.view;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 import com.bs.practice.token.controller.TokenController;
@@ -22,12 +23,17 @@ public class TokenMenu {
 				+ "2. 입력 문자열\n"
 				+ "9. 프로그램 끝내기\n"
 				+ "메뉴 번호 : ");
-		int playNo = sc.nextInt();
-		switch(playNo){
-			case 1: tokenMenu(); break;
-			case 2: inputMenu(); break;
-			case 9: break;
-			default : System.out.println("잘못 입력하였습니다. 다시 입력하세요."); mainMenu();
+		
+		try {
+			int playNo = sc.nextInt();
+			switch(playNo){
+				case 1: tokenMenu(); break;
+				case 2: inputMenu(); break;
+				case 9: break;
+				default : System.out.println("잘못 입력하였습니다. 다시 입력하세요."); mainMenu();
+		}} catch(InputMismatchException e) {
+			sc.nextLine();
+			System.out.println("잘못 입력하였습니다. 다시 입력하세요."); mainMenu();
 		}
 	}
 	public void tokenMenu(){
