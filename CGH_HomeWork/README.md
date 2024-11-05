@@ -105,6 +105,7 @@
     <summary>📁 컬렉션</summary>
     <ul>
       <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/16_컬렉션/AnimalListController(수업실습).java">컬렉션 실습 람다, forEach 버전</a></li>
+      <li>📄 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/16_컬렉션/com/bs/practice/arraylist">arraylist실습문제.txt</a></li>
     </ul>
     </details>
   </li>
