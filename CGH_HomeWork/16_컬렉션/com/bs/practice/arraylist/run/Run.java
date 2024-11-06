@@ -1,7 +1,10 @@
 package com.bs.practice.arraylist.run;
 
 import java.util.Scanner;
+import java.util.List;
 
+import com.bs.practice.arraylist.common.PersonHeightAsc;
+import com.bs.practice.arraylist.common.PersonNameDesc;
 import com.bs.practice.arraylist.controller.PersonListController;
 import com.bs.practice.arraylist.model.vo.Person;
 
@@ -27,17 +30,16 @@ public class Run {
 						.forEach(o->System.out.println((Person)o));
 		
 		System.out.println("4. 사원을 이름(내림차순)순으로 정렬하기");
-		plc.personList().sort(
-						(o1,o2) -> {
-							
-						}
-						)
+		plc.personList().sort(new PersonNameDesc());
+		plc.personList().forEach(o->System.out.println((Person)o));
 		
 		System.out.println("5. 사원을 키(오름차순)순으로 정렬하기");
-		
+		plc.personList().sort(new PersonHeightAsc());
+		plc.personList().forEach(o->System.out.println((Person)o));
 		
 		System.out.println("6. 2번 인덱스에 최주영,26,남,177.3,70.5 저장하기(추가)");
-		
+		plc.personList().add(2,new Person("최주영",26,'남',177.3,70.5));
+		plc.personList().forEach(o->System.out.println((Person)o));
 		
 		System.out.println("7. 3번 인덱스 값을 이동제,25,175.3,68.3 으로 변경하기");
 		

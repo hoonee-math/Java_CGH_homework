@@ -72,5 +72,23 @@ public class Person {
 				&& Objects.equals(name, other.name)
 				&& Double.doubleToLongBits(weight) == Double.doubleToLongBits(other.weight);
 	}
-	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
