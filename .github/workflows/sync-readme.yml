@@ -13,13 +13,18 @@ jobs:
     - uses: actions/checkout@v2
     - name: Sync README.md
       run: |
-        # 루트 디렉토리의 README.md 파일을 CGH_HomeWork 폴더로 복사
-        cp README.md CGH_HomeWork/README.md
+        # 루트 디렉토리의 README.md 파일과 CGH_HomeWork 폴더의 README.md 파일 내용 비교
+        diff_count=$(diff README.md CGH_HomeWork/README.md | wc -l)
         
-        # CGH_HomeWork 폴더의 README.md 파일을 루트 디렉토리로 복사  
-        cp CGH_HomeWork/README.md .
-        
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git commit -am "Sync README.md" || echo "No changes to commit"
-        git push || echo "No changes to push"
+        if [ $diff_count -gt 0 ]; then
+          # 파일 내용이 다른 경우 CGH_HomeWork 폴더의 README.md 파일을 루트 디렉토리로 복사
+          cp CGH_HomeWork/README.md .
+          
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -am "Sync README.md" 
+          git push
+          echo "README.md files synchronized"
+        else
+          echo "README.md files are already synchronized"
+        fi
