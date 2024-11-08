@@ -1,5 +1,6 @@
-아래 트리 구조에서 파일명을 선택하면 과제 코드(폴더)로 바로 이동합니다.
-과제가 끝난 폴더에는 체크 표시(✔️) 해두었습니다.
+# Java_CGH_homework
+아래 트리 구조에서 파일명을 선택하면 과제 코드(폴더)로 바로 이동합니다.<br>
+과제가 끝난 폴더(or폴더 내 일부 파일)에는 체크 표시(✔️) 해두었습니다.
 
 <details open>
 <summary><h1>📌 과제 폴더 구조로 살펴보기</h1></summary>
@@ -9,10 +10,10 @@
 <ul>
   <li>
     <details>
-    <summary>📁 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/13_API_실습문제/com/bs/practice/token">api</a></summary>
+    <summary>📁 api</summary>
     <ul>
-      <li>📕 <a href="">1_API실습문제.pdf</a></li>
-      <li>📕 <a href="">2_API실습문제.pdf</a></li>
+      <li>📕 1_API실습문제.pdf</li>
+      <li>📕 2_API실습문제.pdf</li>
     </ul>
     </details>
   </li>
@@ -79,9 +80,9 @@
 
   <li>
     <details>
-    <summary>📁 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/14_예외처리/com/bs/practice">예외처리</a></summary>
+    <summary>📁 예외처리 ✔️</summary>
     <ul>
-      <li>📕 <a href="">1_예외실습문제.pdf</a></li>
+      <li>📕 <a href="https://github.com/hoonee-math/CGH_HomeWork/14_%EC%98%88%EC%99%B8%EC%B2%98%EB%A6%AC/com/bs/practice/charCheck">1_예외실습문제.pdf</a></li>
       <li>📕 <a href="">2_예외실습문제.pdf</a></li>
     </ul>
     </details>
@@ -90,11 +91,22 @@
 
   <li>
     <details>
-    <summary>📁 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/15_IO입출력/com/bs/practice">입출력</a></summary>
+    <summary>📁 입출력</summary>
     <ul>
-      <li>📕 <a href="">1_입출력실습문제.pdf</a></li>
-      <li>📕 <a href="">2_입출력실습문제.pdf</a></li>
-      <li>📕 <a href="">3_입출력실습문제.pdf</a></li>
+      <li>📕 1_입출력실습문제.pdf</li>
+      <li>📕 2_입출력실습문제.pdf</li>
+      <li>📕 3_입출력실습문제.pdf</li>
+    </ul>
+    </details>
+  </li>
+  
+
+  <li>
+    <details>
+    <summary>📁 추상클래스 인터페이스</summary>
+    <ul>
+      <li>📕 2_Abstract와Interface 실습문제.pdf</li>
+      <li>📕 추상클래스,인터페이스 실습문제2.pdf</li>
     </ul>
     </details>
   </li>
@@ -104,7 +116,13 @@
     <details>
     <summary>📁 컬렉션</summary>
     <ul>
-      <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/16_컬렉션/AnimalListController(수업실습).java">컬렉션 실습 람다, forEach 버전</a></li>
+      <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/16_컬렉션/AnimalListController(수업실습).java">컬렉션 실습 람다, forEach 버전 ✔️</a></li>
+      <li>📄 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/16_컬렉션/com/bs/practice/arraylist">arraylist실습문제.txt ✔️</a></li>
+      <li><a href=""></a>📕 1_list_Library.pdf</li>
+      <li><a href=""></a>📕 1_list_Music.pdf</li>
+      <li><a href=""></a>📕 2_set_lottery.pdf</li>
+      <li><a href=""></a>📕 3_map_member.pdf</li>
+      <li><a href=""></a>📕 4_generics_farm.pdf</li>
     </ul>
     </details>
   </li>
@@ -129,3 +147,46 @@
 
 <details>
 <summary><h1>📌 단원별로 살펴보기</h1></summary>
+
+
+<details>
+<summary><h2>📌 단원별로 살펴보기</h2></summary>
+</details>
+
+
+## [JAVA 학생관리 프로그램][url2]
+
+[rul1]:https://github.com/hoonee-math/Java_CGH_homework/tree/main/CGH_HomeWork
+[url2]:https://github.com/hoonee-math/Java_CGH_homework/tree/main/manageStudent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details>
+<summary>참조 링크</summary>
+
+<!--(이미지로 클릭 버튼 넣기 등): 
+[![Java][java-shield]][java-url]
+[![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)][0]
+Click [here][project-link] to see the project
+
+<!-- 참조 링크 숨기기(이미지로 클릭 버튼 넣기 등):   <!-- 이미지 링크 
+[java-shield]: https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white
+[java-url]: https://docs.oracle.com/en/java/javase/17/docs/api/index.html
+[0]: https://spring.io/
+[project-link]: https://your-project-url.com
+-->
+
+</details>
