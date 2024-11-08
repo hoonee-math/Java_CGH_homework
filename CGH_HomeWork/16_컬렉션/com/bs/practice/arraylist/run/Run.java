@@ -1,7 +1,6 @@
 package com.bs.practice.arraylist.run;
 
 import java.util.Scanner;
-import java.util.List;
 
 import com.bs.practice.arraylist.common.PersonHeightAsc;
 import com.bs.practice.arraylist.common.PersonNameDesc;
