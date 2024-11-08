@@ -1,11 +1,14 @@
 package com.bs.practice.charCheck.exception;
 
-public class CharCheckException {
+public class CharCheckException extends Exception {
+	
 	public CharCheckException() {
-		// TODO Auto-generated constructor stub
-	}
-	public CharCheckException(String msg) {
 		
+	}
+	
+	public CharCheckException(String msg) {
+		super("2. "+msg);
+		System.err.println("1. "+msg);
 	}
 	
 }
