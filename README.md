@@ -116,8 +116,13 @@
     <details>
     <summary>📁 컬렉션</summary>
     <ul>
-      <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/16_컬렉션/AnimalListController(수업실습).java">컬렉션 실습 람다, forEach 버전</a></li>
-      <li>📄 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/16_컬렉션/com/bs/practice/arraylist">arraylist실습문제.txt</a></li>
+      <li>📕 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/16_컬렉션/AnimalListController(수업실습).java">컬렉션 실습 람다, forEach 버전 ✔️</a></li>
+      <li>📄 <a href="https://github.com/hoonee-math/Java_CGH_homework/blob/main/CGH_HomeWork/16_컬렉션/com/bs/practice/arraylist">arraylist실습문제.txt ✔️</a></li>
+      <li><a href=""></a>📕 1_list_Library.pdf</li>
+      <li><a href=""></a>📕 1_list_Music.pdf</li>
+      <li><a href=""></a>📕 2_set_lottery.pdf</li>
+      <li><a href=""></a>📕 3_map_member.pdf</li>
+      <li><a href=""></a>📕 4_generics_farm.pdf</li>
     </ul>
     </details>
   </li>
