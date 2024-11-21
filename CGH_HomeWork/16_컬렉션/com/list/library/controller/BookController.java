@@ -12,15 +12,17 @@ public class BookController {
 		// TODO Auto-generated constructor stub
 	}
 	public void insertBook(Book bk) {
-		
+		list.add(bk);
 	}
-	public List selecList() {
+	public List selectList() {
 		
 		return list;
 	}
 	public List searchBook(String keyword) {
+		List<Book> selectList = new ArrayList<Book>();
+		list.stream().filter(o->((Book)o).toString().contains(keyword)).forEach(selectList.add(((Book)o)));
 		
-		return list;
+		return selectList;
 	}
 	public Book deleteBook(String title, String author) {
 		Book bk = new Book();
