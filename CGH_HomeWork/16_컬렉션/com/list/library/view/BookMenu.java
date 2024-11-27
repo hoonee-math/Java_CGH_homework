@@ -1,5 +1,7 @@
 package com.list.library.view;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 import com.list.library.controller.BookController;
@@ -29,7 +31,6 @@ public class BookMenu {
 				case 3: searchBook(); selectMenuBoolean=false; break;
 				case 4: deleteBook(); selectMenuBoolean=false; break;
 				case 5: ascBook();	  selectMenuBoolean=false; break;
-				case 8: dummyData();  selectMenuBoolean=false; break;
 				case 9: return;
 				default : System.out.println("잘못 입력하였습니다. 다시 입력해주세요.");
 			}
@@ -63,18 +64,40 @@ public class BookMenu {
 		bc.insertBook(bk);
 	}
 	public void selectList() {
-		
+		ArrayList<Book> bookList = new ArrayList<Book>(bc.selectList());
+		if(bookList.isEmpty()) {
+			System.out.println("존재하는 도서가 없습니다.");
+		} else {
+			bookList.forEach(System.out::println);
+		}
 	}
 	public void searchBook() {
-		
+		System.out.print("검색할 도성와 관련된 키워드를 입력해주세요: ");
+		String keyword = sc.next();
+		ArrayList<Book> searchList = new ArrayList<Book>(bc.searchBook(keyword));
+		if(searchList.isEmpty()) {
+			System.out.println("검색 결과가 없습니다.");
+		} else {
+			searchList.forEach(System.out::println);
+		}
 	}
 	public void deleteBook() {
-		
+		System.out.print("삭제할 도서명: ");
+		String title = sc.next();
+		System.out.print("삭제할 도서 저자명: ");
+		String author = sc.next();
+		Book remove = new Book();
+		remove = bc.deleteBook(title, author);
+		if(remove != null) {
+			System.out.println(remove+"가 성공적으로 삭제되었습니다.");
+		} else {
+			System.out.println("삭제할 도서를 찾지 못했습니다.");
+		}
 	}
 	public void ascBook() {
-		
-	}
-	public void dummyData() {
-		
+		if(bc.ascBook()==1)
+			System.out.println("정렬에 성공하였습니다.");
+		else
+			System.out.println("정렬에 실패하였습니다.");
 	}
 }
