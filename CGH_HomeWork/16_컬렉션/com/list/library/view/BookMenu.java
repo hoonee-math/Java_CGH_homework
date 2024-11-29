@@ -2,6 +2,7 @@ package com.list.library.view;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 import com.list.library.controller.BookController;
@@ -13,26 +14,31 @@ public class BookMenu {
 	
 	public void mainMenu() {
 		System.out.println("==== Welcome CGH Library ====\n");
-		System.out.println("******** 메인 메뉴 ********");
-		System.out.println(""
-				+ "1. 새 도서 추가\n"
-				+ "2. 도서 전체 조회\n"
-				+ "3. 도서 검색 조회\n"
-				+ "4. 도서 삭제\n"
-				+ "5. 도서명 오름차순 정렬\n"
-				+ "8. 더미 데이터 입력\n"
-				+ "9. 종료\n");
 		boolean selectMenuBoolean=true;
 		while(selectMenuBoolean) {
+			System.out.println("******** 메인 메뉴 ********");
+			System.out.println(""
+					+ "1. 새 도서 추가\n"
+					+ "2. 도서 전체 조회\n"
+					+ "3. 도서 검색 조회\n"
+					+ "4. 도서 삭제\n"
+					+ "5. 도서명 오름차순 정렬\n"
+					+ "8. 더미 데이터 입력\n"
+					+ "9. 종료\n");
 			System.out.print("메뉴 번호 선택 : ");
-			switch(sc.nextInt()) {
-				case 1: insertBook(); selectMenuBoolean=false; break;
-				case 2: selectList(); selectMenuBoolean=false; break;
-				case 3: searchBook(); selectMenuBoolean=false; break;
-				case 4: deleteBook(); selectMenuBoolean=false; break;
-				case 5: ascBook();	  selectMenuBoolean=false; break;
-				case 9: return;
-				default : System.out.println("잘못 입력하였습니다. 다시 입력해주세요.");
+			try{
+				switch(sc.nextInt()) {
+					case 1: insertBook(); break;
+					case 2: selectList(); break;
+					case 3: searchBook(); break;
+					case 4: deleteBook(); break;
+					case 5: ascBook();	  break;
+					case 9: return;
+					default : System.err.println("잘못 입력하였습니다. 다시 입력해주세요.");
+				}
+			} catch(InputMismatchException e) {
+				sc.nextLine();
+				System.err.println("잘못 입력하였습니다. 다시 입력해주세요.");
 			}
 		}
 	}
@@ -46,19 +52,21 @@ public class BookMenu {
 		System.out.println("장르(1.인문 / 2.자연과학 / 3.의료 / 4.기타)");
 		String category="";
 		boolean flag=true;
+		flag:
 		while(flag) {
 			System.out.print("장르 선택(번호 입력) : ");
 			int categoryInt=sc.nextInt();
 			switch(categoryInt) {
-			case 1: category="인문"; break;
-			case 2: category="자연과학"; break;
-			case 3: category="의료"; break;
-			case 4: category="기타"; break;
-			default : System.out.println("장르 번호를 정확히 입력하세요.");
+				case 1: category="인문"; break flag;
+				case 2: category="자연과학"; break flag;
+				case 3: category="의료"; break flag;
+				case 4: category="기타"; break flag;
+				default : System.out.println("장르 번호를 정확히 입력하세요.");
 			}
 		}
 		System.out.print("가격: ");
 		int price=sc.nextInt();
+		System.out.println();
 		
 		Book bk=new Book(title,author,category,price);
 		bc.insertBook(bk);
@@ -82,10 +90,12 @@ public class BookMenu {
 		}
 	}
 	public void deleteBook() {
+		sc.nextLine();
 		System.out.print("삭제할 도서명: ");
-		String title = sc.next();
+		String title = sc.nextLine();
 		System.out.print("삭제할 도서 저자명: ");
-		String author = sc.next();
+		String author = sc.nextLine();
+		System.out.println(title+author);
 		Book remove = new Book();
 		remove = bc.deleteBook(title, author);
 		if(remove != null) {
