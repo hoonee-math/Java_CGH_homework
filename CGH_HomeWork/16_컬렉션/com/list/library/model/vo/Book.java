@@ -63,7 +63,12 @@ public class Book implements Comparable {
 	}
 	@Override
 	public int compareTo(Object o) {
-		return 1;
+		if(o instanceof Book) {
+			Book b = (Book)o;
+			return this.getTitle().compareTo(b.getTitle());
+		} else {
+			throw new IllegalArgumentException("Book 매개변수 인수만 받아요!");
+		}
 	}
 	
 }

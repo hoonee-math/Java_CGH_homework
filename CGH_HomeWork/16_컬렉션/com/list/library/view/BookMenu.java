@@ -1,7 +1,7 @@
 package com.list.library.view;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collections;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -105,8 +105,9 @@ public class BookMenu {
 		}
 	}
 	public void ascBook() {
-		if(bc.ascBook()==1)
+		if(bc.ascBook()==1) {
 			System.out.println("정렬에 성공하였습니다.");
+		}
 		else
 			System.out.println("정렬에 실패하였습니다.");
 	}

@@ -1,7 +1,10 @@
 package com.list.library.controller;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
+
+import javax.lang.model.type.UnknownTypeException;
 
 import com.list.library.model.vo.Book;
 
@@ -40,7 +43,11 @@ public class BookController {
 		return null;
 	}
 	public int ascBook() {
-		
-		return 0;
+		try {
+			Collections.sort(bookList);
+			return 1;
+		} catch(Exception e ) {
+			return 0;
+		}
 	}
 }
