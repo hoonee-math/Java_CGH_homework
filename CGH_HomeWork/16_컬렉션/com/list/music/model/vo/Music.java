@@ -46,7 +46,10 @@ public class Music implements Comparable {
 	}
 	@Override
 	public int compareTo(Object o) {
-		return 1;
-		
+		if(o instanceof Music) {
+			return this.compareTo(((Music) o).getTitle());
+		} else {
+			throw new IllegalArgumentException("MUSIC 객체만 입력가능합니다.");
+		}
 	}
 }
